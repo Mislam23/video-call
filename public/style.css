@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  background-color: #161d29;
+}
+
+.main__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.videos__group {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color:darkcyan;
+}
+
+.options {
+  padding: 1rem;
+  display: flex;
+  background-color:aquamarine;
+}
+
+.options__left {
+  display: flex;
+}
+
+.options__right {
+  margin-left: auto;
+}
+
+.options__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:aliceblue;
+  height: 50px;
+  border-radius: 5px;
+  color: var(--main-light);
+  font-size: 1.2rem;
+  width: 50px;
+  margin: 0 0.5rem;
+}
+
+.options__button:hover {
+  background-color:coral;
+}
